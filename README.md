@@ -29,4 +29,4 @@ $ docker exec -it forex_api python manage.py test
 
 ### API Documentation
 
-You can find the API docs [here](https://docs.docker.com/install/)
+You can find the API docs [here](https://github.com/fichie23/forex_backend/blob/master/docs/APIDocs.md)
