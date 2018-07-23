@@ -1,6 +1,6 @@
 FROM python:2.7
 
-RUN apt-get update
+RUN apt-get update && apt-get install -y netcat
 
 ENV PYTHONUNBUFFERED 1
 
@@ -18,4 +18,4 @@ RUN rm db.sqlite3
 
 RUN chmod +x /forex_backend/runserver.sh
 
-CMD ["sh", "runserver.sh"]
+CMD ["sh", "runserver.sh", "postgres", "5432", "60"]
