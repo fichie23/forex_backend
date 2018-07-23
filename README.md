@@ -19,3 +19,10 @@ Run container
 ```
 $ docker run -d --name forex_api -p 8000:8000 forex:latest
 ```
+
+## How to Test
+
+Execute command below, make sure your container name `forex_api` is the correct target
+```
+$ docker exec -it forex_api python manage.py test
+```
