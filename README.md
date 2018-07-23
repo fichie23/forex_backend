@@ -26,3 +26,7 @@ Execute command below, make sure your container name `forex_api` is the correct 
 ```
 $ docker exec -it forex_api python manage.py test
 ```
+
+### API Documentation
+
+You can find the API docs [here](https://docs.docker.com/install/)
