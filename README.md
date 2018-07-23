@@ -8,10 +8,10 @@ I used docker for development and deployment as well. To install docker on your 
 
 ## How to Run
 
-Run using docker-compose, there will be 2 containers running, api and postgresql container. Two ports should be available before running the docker, port 8000 for api using default django port and port 5432 for postgres port
+Run using `docker-compose`, there will be 2 containers running, api and postgresql container. Two ports should be available before running the docker, port 8000 for api using default django port and port 5432 for postgres port
 
 ```
-$ docker exec -it forex_backend_api_1 python manage.py test
+$ docker-compose up
 ```
 
 ## How to Test
