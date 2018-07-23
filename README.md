@@ -30,3 +30,8 @@ $ docker exec -it forex_api python manage.py test
 ### API Documentation
 
 You can find the API docs [here](https://github.com/fichie23/forex_backend/blob/master/docs/APIDocs.md)
+
+
+### Database Documentation
+
+You can find explanation about Database design documentation [here](https://github.com/fichie23/forex_backend/blob/master/docs/DBDocs.md)
